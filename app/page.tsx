@@ -1695,7 +1695,7 @@ export default function Home() {
             "
                 >
 
-                  Chat on WhatsApp
+                  Submit project inquiry
 
                   <span
                     className="
