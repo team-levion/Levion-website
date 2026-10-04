@@ -1450,237 +1450,145 @@ export default function Home() {
 
 
               {/* CONTACT DETAILS */}
-              <div id="contact" className="mt-12 scroll-mt-24 space-y-7">
+              <div id="contact" className="mt-12 scroll-mt-24">
 
-
-                {/* EMAIL */}
-                <div>
-
-                  <p
-                    className="
+                <p
+                  className="
                 text-[10px]
                 uppercase
                 tracking-[0.25em]
                 text-[#555960]
               "
-                  >
-                    Email
-                  </p>
+                >
+                  Contact
+                </p>
+
+                <div className="mt-5 flex flex-wrap gap-4">
 
                   <a
                     href="mailto:hello.levion@gmail.com"
+                    aria-label="Email LEVION"
+                    title="Email"
                     className="
                 group
-                mt-3
                 flex
+                h-12
+                w-12
                 items-center
-                gap-4
-                text-base
-                text-white
+                justify-center
+                rounded-full
+                border
+                border-white/10
+                bg-white/[0.04]
+                text-[#E8606F]
                 transition
-                hover:text-[#E8606F]
+                hover:-translate-y-1
+                hover:border-[#E8606F]/50
+                hover:bg-[#E8606F]/10
               "
                   >
-                    <span
-                      className="
-                  flex
-                  h-11
-                  w-11
-                  items-center
-                  justify-center
-                  rounded-full
-                  border
-                  border-white/10
-                  bg-white/[0.04]
-                  text-xs
-                  font-semibold
-                  text-[#E8606F]
-                  transition
-                  group-hover:border-[#E8606F]/50
-                  group-hover:bg-[#E8606F]/10
-                "
-                    >
-                      EM
-                    </span>
-                    <span>hello.levion@gmail.com</span>
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M4 6.5h16v11H4v-11Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+                      <path d="m5 7 7 6 7-6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                   </a>
-
-                </div>
-
-
-                {/* LOCATION */}
-                <div>
-
-                  <p
-                    className="
-                text-[10px]
-                uppercase
-                tracking-[0.25em]
-                text-[#555960]
-              "
-                  >
-                    Location
-                  </p>
 
                   <a
                     href="https://www.google.com/maps/search/?api=1&query=Kerala"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Open LEVION location on Google Maps"
+                    title="Location"
                     className="
                 group
-                mt-3
                 flex
+                h-12
+                w-12
                 items-center
-                gap-4
-                text-base
-                text-[#C1C4CA]
+                justify-center
+                rounded-full
+                border
+                border-white/10
+                bg-white/[0.04]
+                text-[#E8606F]
                 transition
-                hover:text-[#E8606F]
+                hover:-translate-y-1
+                hover:border-[#E8606F]/50
+                hover:bg-[#E8606F]/10
               "
                   >
-                    <span
-                      className="
-                  flex
-                  h-11
-                  w-11
-                  items-center
-                  justify-center
-                  rounded-full
-                  border
-                  border-white/10
-                  bg-white/[0.04]
-                  text-xs
-                  font-semibold
-                  text-[#E8606F]
-                  transition
-                  group-hover:border-[#E8606F]/50
-                  group-hover:bg-[#E8606F]/10
-                "
-                    >
-                      KL
-                    </span>
-                    <span>Kerala</span>
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M12 21s7-5.7 7-12a7 7 0 1 0-14 0c0 6.3 7 12 7 12Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+                      <path d="M12 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" stroke="currentColor" strokeWidth="1.8" />
+                    </svg>
                   </a>
-
-                </div>
-
-
-                {/* WHATSAPP */}
-                <div>
-
-                  <p
-                    className="
-                text-[10px]
-                uppercase
-                tracking-[0.25em]
-                text-[#555960]
-              "
-                  >
-                    WhatsApp
-                  </p>
 
                   <a
                     href={whatsappUrl}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Chat with LEVION on WhatsApp"
+                    title="WhatsApp"
                     className="
                 group
-                mt-3
                 flex
+                h-12
+                w-12
                 items-center
-                gap-4
-                text-base
-                text-white
+                justify-center
+                rounded-full
+                border
+                border-white/10
+                bg-white/[0.04]
+                text-[#E8606F]
                 transition
-                hover:text-[#E8606F]
+                hover:-translate-y-1
+                hover:border-[#E8606F]/50
+                hover:bg-[#E8606F]/10
               "
                   >
-                    <span
-                      className="
-                  flex
-                  h-11
-                  w-11
-                  items-center
-                  justify-center
-                  rounded-full
-                  border
-                  border-white/10
-                  bg-white/[0.04]
-                  text-xs
-                  font-semibold
-                  text-[#E8606F]
-                  transition
-                  group-hover:border-[#E8606F]/50
-                  group-hover:bg-[#E8606F]/10
-                "
-                    >
-                      WA
-                    </span>
-                    <span>8921901702</span>
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M6.6 18.2 4 20l.7-3.1A8 8 0 1 1 8 19.3l-1.4-1.1Z" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M9.4 8.7c.2-.5.4-.6.8-.6h.5c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.5.6c.5 1 1.3 1.8 2.4 2.4l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.6v.5c0 .4-.2.6-.6.8-.7.3-1.6.3-2.6-.1-2.4-.9-4.6-3.1-5.4-5.4-.4-1-.4-1.9-.1-2.6Z" fill="currentColor" />
+                    </svg>
                   </a>
-
-                </div>
-
-
-                {/* INSTAGRAM */}
-                <div>
-
-                  <p
-                    className="
-                text-[10px]
-                uppercase
-                tracking-[0.25em]
-                text-[#555960]
-              "
-                  >
-                    Instagram
-                  </p>
 
                   <a
                     href="https://www.instagram.com/levion.dev"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Open LEVION on Instagram"
+                    title="Instagram"
                     className="
                 group
-                mt-3
                 flex
+                h-12
+                w-12
                 items-center
-                gap-4
-                text-base
-                text-white
+                justify-center
+                rounded-full
+                border
+                border-white/10
+                bg-white/[0.04]
+                text-[#E8606F]
                 transition
-                hover:text-[#E8606F]
+                hover:-translate-y-1
+                hover:border-[#E8606F]/50
+                hover:bg-[#E8606F]/10
               "
                   >
-                    <span
-                      className="
-                  flex
-                  h-11
-                  w-11
-                  items-center
-                  justify-center
-                  rounded-full
-                  border
-                  border-white/10
-                  bg-white/[0.04]
-                  text-xs
-                  font-semibold
-                  text-[#E8606F]
-                  transition
-                  group-hover:border-[#E8606F]/50
-                  group-hover:bg-[#E8606F]/10
-                "
-                    >
-                      IG
-                    </span>
-                    <span>@levion.dev</span>
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <rect x="5" y="5" width="14" height="14" rx="4" stroke="currentColor" strokeWidth="1.8" />
+                      <path d="M15 11.4a3 3 0 1 1-5.8 1.4 3 3 0 0 1 5.8-1.4Z" stroke="currentColor" strokeWidth="1.8" />
+                      <path d="M16.5 8.2h.1" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" />
+                    </svg>
                   </a>
 
                 </div>
 
 
                 {/* AVAILABILITY */}
-                <div>
+                <div className="mt-9">
 
                   <p
                     className="
