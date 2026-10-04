@@ -349,9 +349,7 @@ export default function Home() {
 
 
             <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="
           group
           relative
@@ -388,9 +386,7 @@ export default function Home() {
 
             {/* START PROJECT */}
             <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#start-project"
               className="
           group
           hidden
@@ -626,9 +622,7 @@ export default function Home() {
           >
 
             <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#start-project"
               className="
                 group
                 rounded-full
@@ -1188,9 +1182,7 @@ export default function Home() {
           <div className="mt-12 text-center">
 
             <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#start-project"
               className="
                 inline-flex
                 items-center
@@ -1334,7 +1326,7 @@ export default function Home() {
     CONTACT SECTION
 ===================================================== */}
       <section
-        id="contact"
+        id="start-project"
         className="
     relative
     overflow-hidden
@@ -1458,7 +1450,7 @@ export default function Home() {
 
 
               {/* CONTACT DETAILS */}
-              <div className="mt-12 space-y-7">
+              <div id="contact" className="mt-12 scroll-mt-24 space-y-7">
 
 
                 {/* EMAIL */}
@@ -1478,15 +1470,39 @@ export default function Home() {
                   <a
                     href="mailto:hello.levion@gmail.com"
                     className="
-                mt-2
-                inline-block
+                group
+                mt-3
+                flex
+                items-center
+                gap-4
                 text-base
                 text-white
                 transition
                 hover:text-[#E8606F]
               "
                   >
-                    hello.levion@gmail.com
+                    <span
+                      className="
+                  flex
+                  h-11
+                  w-11
+                  items-center
+                  justify-center
+                  rounded-full
+                  border
+                  border-white/10
+                  bg-white/[0.04]
+                  text-xs
+                  font-semibold
+                  text-[#E8606F]
+                  transition
+                  group-hover:border-[#E8606F]/50
+                  group-hover:bg-[#E8606F]/10
+                "
+                    >
+                      EM
+                    </span>
+                    <span>hello.levion@gmail.com</span>
                   </a>
 
                 </div>
@@ -1506,15 +1522,45 @@ export default function Home() {
                     Location
                   </p>
 
-                  <p
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Kerala"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="
-                mt-2
+                group
+                mt-3
+                flex
+                items-center
+                gap-4
                 text-base
                 text-[#C1C4CA]
+                transition
+                hover:text-[#E8606F]
               "
                   >
-                    Kerala
-                  </p>
+                    <span
+                      className="
+                  flex
+                  h-11
+                  w-11
+                  items-center
+                  justify-center
+                  rounded-full
+                  border
+                  border-white/10
+                  bg-white/[0.04]
+                  text-xs
+                  font-semibold
+                  text-[#E8606F]
+                  transition
+                  group-hover:border-[#E8606F]/50
+                  group-hover:bg-[#E8606F]/10
+                "
+                    >
+                      KL
+                    </span>
+                    <span>Kerala</span>
+                  </a>
 
                 </div>
 
@@ -1538,15 +1584,39 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                mt-2
-                inline-block
+                group
+                mt-3
+                flex
+                items-center
+                gap-4
                 text-base
                 text-white
                 transition
                 hover:text-[#E8606F]
               "
                   >
-                    8921901702
+                    <span
+                      className="
+                  flex
+                  h-11
+                  w-11
+                  items-center
+                  justify-center
+                  rounded-full
+                  border
+                  border-white/10
+                  bg-white/[0.04]
+                  text-xs
+                  font-semibold
+                  text-[#E8606F]
+                  transition
+                  group-hover:border-[#E8606F]/50
+                  group-hover:bg-[#E8606F]/10
+                "
+                    >
+                      WA
+                    </span>
+                    <span>8921901702</span>
                   </a>
 
                 </div>
@@ -1571,15 +1641,39 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
-                mt-2
-                inline-block
+                group
+                mt-3
+                flex
+                items-center
+                gap-4
                 text-base
                 text-white
                 transition
                 hover:text-[#E8606F]
               "
                   >
-                    @levion.dev
+                    <span
+                      className="
+                  flex
+                  h-11
+                  w-11
+                  items-center
+                  justify-center
+                  rounded-full
+                  border
+                  border-white/10
+                  bg-white/[0.04]
+                  text-xs
+                  font-semibold
+                  text-[#E8606F]
+                  transition
+                  group-hover:border-[#E8606F]/50
+                  group-hover:bg-[#E8606F]/10
+                "
+                    >
+                      IG
+                    </span>
+                    <span>@levion.dev</span>
                   </a>
 
                 </div>
