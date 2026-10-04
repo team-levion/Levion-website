@@ -463,12 +463,15 @@ export default function Home() {
         className="
           relative
           flex
-          min-h-[calc(100vh-70px)]
+          min-h-screen
           items-center
           justify-center
           overflow-hidden
           px-5
-          py-16
+          pb-20
+          pt-32
+          sm:pt-36
+          md:pt-40
         "
       >
 
@@ -534,19 +537,24 @@ export default function Home() {
             <span
               className="
                 inline-flex
+                flex-wrap
+                justify-center
                 items-center
-                gap-3
-                text-xs
+                gap-2
+                text-[10px]
                 uppercase
-                tracking-[0.35em]
+                tracking-[0.24em]
                 text-[#E8606F]
+                sm:gap-3
+                sm:text-xs
+                sm:tracking-[0.35em]
               "
             >
-              <span className="h-px w-8 bg-[#E8606F]" />
+              <span className="h-px w-6 bg-[#E8606F] sm:w-8" />
 
               Software Development Company
 
-              <span className="h-px w-8 bg-[#E8606F]" />
+              <span className="h-px w-6 bg-[#E8606F] sm:w-8" />
             </span>
 
           </div>
@@ -555,15 +563,11 @@ export default function Home() {
           <h1
             className="
               hero-title
-              mt-6
-              text-5xl
+              mt-5
+              text-[clamp(3rem,8vw,6.25rem)]
               font-semibold
-              leading-[0.9]
-              tracking-[-0.055em]
-              sm:text-6xl
-              md:text-7xl
-              lg:text-[6.5rem]
-              xl:text-[7.5rem]
+              leading-[0.92]
+              tracking-[-0.04em]
             "
           >
 
@@ -596,7 +600,7 @@ export default function Home() {
             className="
               hero-description
               mx-auto
-              mt-7
+              mt-6
               max-w-2xl
               text-sm
               leading-6
@@ -613,7 +617,7 @@ export default function Home() {
           <div
             className="
               hero-buttons
-              mt-9
+              mt-8
               flex
               flex-col
               items-center
