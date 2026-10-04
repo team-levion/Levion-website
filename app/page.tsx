@@ -211,7 +211,7 @@ export default function Home() {
           className="
       mx-auto
       flex
-      h-[76px]
+      h-16
       max-w-7xl
       items-center
       justify-between
@@ -237,7 +237,7 @@ export default function Home() {
               src="/levion-logo.svg"
               alt="LEVION"
               className="
-          h-9
+          h-8
           w-auto
           object-contain
         "
@@ -398,8 +398,8 @@ export default function Home() {
           gap-3
           rounded-full
           bg-white
-          px-5
-          py-2.5
+          px-4
+          py-2
           text-sm
           font-medium
           text-black
@@ -463,7 +463,7 @@ export default function Home() {
         className="
           relative
           flex
-          min-h-[calc(100vh-76px)]
+          min-h-[calc(100vh-64px)]
           items-center
           justify-center
           overflow-hidden
