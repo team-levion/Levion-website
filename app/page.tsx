@@ -1,17 +1,20 @@
 export default function Home() {
+  const whatsappUrl =
+    "https://wa.me/918921901702?text=Hi%20LEVION%2C%20I%20want%20to%20start%20a%20project.";
+
   const services = [
     {
       number: "01",
-      title: "Web Development",
+      title: "Websites",
       description:
-        "High-performance websites and web applications designed to make your business stand out.",
+        "High-performance business websites designed to make your brand stand out online.",
       image:
         "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1400&q=90",
-      tag: "Web",
+      tag: "Websites",
     },
     {
       number: "02",
-      title: "Mobile App Development",
+      title: "Mobile Apps",
       description:
         "Modern mobile experiences built for iOS, Android and cross-platform products.",
       image:
@@ -20,21 +23,48 @@ export default function Home() {
     },
     {
       number: "03",
-      title: "Custom Software",
+      title: "Web Applications",
       description:
-        "Powerful software systems created around your business workflows and requirements.",
+        "Secure, scalable web applications built around your customers and internal workflows.",
       image:
         "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=90",
-      tag: "Software",
+      tag: "Apps",
     },
     {
       number: "04",
+      title: "ERP Systems",
+      description:
+        "Connected ERP systems that simplify operations, reporting and business management.",
+      image:
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=90",
+      tag: "ERP",
+    },
+    {
+      number: "05",
       title: "UI/UX Design",
       description:
         "Beautiful, intuitive interfaces that turn complex products into simple experiences.",
       image:
         "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1400&q=90",
       tag: "Design",
+    },
+    {
+      number: "06",
+      title: "Ecommerce Solutions",
+      description:
+        "Conversion-focused online stores with smooth product discovery, checkout and management.",
+      image:
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=90",
+      tag: "Commerce",
+    },
+    {
+      number: "07",
+      title: "Custom Software Development",
+      description:
+        "Powerful custom software created around your exact business requirements.",
+      image:
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=90",
+      tag: "Custom",
     },
   ];
 
@@ -319,7 +349,9 @@ export default function Home() {
 
 
             <a
-              href="#contact"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="
           group
           relative
@@ -356,7 +388,9 @@ export default function Home() {
 
             {/* START PROJECT */}
             <a
-              href="#contact"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="
           group
           hidden
@@ -590,7 +624,9 @@ export default function Home() {
           >
 
             <a
-              href="#contact"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="
                 group
                 rounded-full
@@ -1150,7 +1186,9 @@ export default function Home() {
           <div className="mt-12 text-center">
 
             <a
-              href="#contact"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="
                 inline-flex
                 items-center
@@ -1378,7 +1416,7 @@ export default function Home() {
             md:text-7xl
           "
               >
-                Let's build
+                Let&apos;s build
                 <br />
 
                 <span
@@ -1412,7 +1450,7 @@ export default function Home() {
           "
               >
                 Have an idea, a product or a business challenge?
-                Tell us about it. We'd love to hear what you're
+                Tell us about it. We&apos;d love to hear what you&apos;re
                 building and explore how LEVION can help.
               </p>
 
@@ -1436,7 +1474,7 @@ export default function Home() {
                   </p>
 
                   <a
-                    href="mailto:hello@levion.com"
+                    href="mailto:hello.levion@gmail.com"
                     className="
                 mt-2
                 inline-block
@@ -1446,7 +1484,7 @@ export default function Home() {
                 hover:text-[#E8606F]
               "
                   >
-                    hello@levion.com
+                    hello.levion@gmail.com
                   </a>
 
                 </div>
@@ -1473,8 +1511,74 @@ export default function Home() {
                 text-[#C1C4CA]
               "
                   >
-                    India
+                    Kerala
                   </p>
+
+                </div>
+
+
+                {/* WHATSAPP */}
+                <div>
+
+                  <p
+                    className="
+                text-[10px]
+                uppercase
+                tracking-[0.25em]
+                text-[#555960]
+              "
+                  >
+                    WhatsApp
+                  </p>
+
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                mt-2
+                inline-block
+                text-base
+                text-white
+                transition
+                hover:text-[#E8606F]
+              "
+                  >
+                    8921901702
+                  </a>
+
+                </div>
+
+
+                {/* INSTAGRAM */}
+                <div>
+
+                  <p
+                    className="
+                text-[10px]
+                uppercase
+                tracking-[0.25em]
+                text-[#555960]
+              "
+                  >
+                    Instagram
+                  </p>
+
+                  <a
+                    href="https://www.instagram.com/levion.dev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                mt-2
+                inline-block
+                text-base
+                text-white
+                transition
+                hover:text-[#E8606F]
+              "
+                  >
+                    @levion.dev
+                  </a>
 
                 </div>
 
@@ -1698,8 +1802,10 @@ export default function Home() {
 
 
                 {/* BUTTON */}
-                <button
-                  type="button"
+                <a
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="
               group
               flex
@@ -1725,7 +1831,7 @@ export default function Home() {
             "
                 >
 
-                  Send inquiry
+                  Chat on WhatsApp
 
                   <span
                     className="
@@ -1737,11 +1843,11 @@ export default function Home() {
                     →
                   </span>
 
-                </button>
+                </a>
 
 
                 <p className="text-center text-[11px] text-[#4F535A]">
-                  We'll get back to you as soon as possible.
+                  We&apos;ll get back to you as soon as possible.
                 </p>
 
               </form>
@@ -1778,7 +1884,7 @@ export default function Home() {
               </span>
 
               <span>
-                Let's create something meaningful.
+                Let&apos;s create something meaningful.
               </span>
 
             </div>
