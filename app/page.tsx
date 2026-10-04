@@ -1449,146 +1449,8 @@ export default function Home() {
               </p>
 
 
-              {/* CONTACT DETAILS */}
-              <div id="contact" className="mt-12 scroll-mt-24">
-
-                <p
-                  className="
-                text-[10px]
-                uppercase
-                tracking-[0.25em]
-                text-[#555960]
-              "
-                >
-                  Contact
-                </p>
-
-                <div className="mt-5 flex flex-wrap gap-4">
-
-                  <a
-                    href="mailto:hello.levion@gmail.com"
-                    aria-label="Email LEVION"
-                    title="Email"
-                    className="
-                group
-                flex
-                h-12
-                w-12
-                items-center
-                justify-center
-                rounded-full
-                border
-                border-white/10
-                bg-white/[0.04]
-                text-[#E8606F]
-                transition
-                hover:-translate-y-1
-                hover:border-[#E8606F]/50
-                hover:bg-[#E8606F]/10
-              "
-                  >
-                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <path d="M4 6.5h16v11H4v-11Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
-                      <path d="m5 7 7 6 7-6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </a>
-
-                  <a
-                    href="https://www.google.com/maps/search/?api=1&query=Kerala"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Open LEVION location on Google Maps"
-                    title="Location"
-                    className="
-                group
-                flex
-                h-12
-                w-12
-                items-center
-                justify-center
-                rounded-full
-                border
-                border-white/10
-                bg-white/[0.04]
-                text-[#E8606F]
-                transition
-                hover:-translate-y-1
-                hover:border-[#E8606F]/50
-                hover:bg-[#E8606F]/10
-              "
-                  >
-                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <path d="M12 21s7-5.7 7-12a7 7 0 1 0-14 0c0 6.3 7 12 7 12Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
-                      <path d="M12 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" stroke="currentColor" strokeWidth="1.8" />
-                    </svg>
-                  </a>
-
-                  <a
-                    href={whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Chat with LEVION on WhatsApp"
-                    title="WhatsApp"
-                    className="
-                group
-                flex
-                h-12
-                w-12
-                items-center
-                justify-center
-                rounded-full
-                border
-                border-white/10
-                bg-white/[0.04]
-                text-[#E8606F]
-                transition
-                hover:-translate-y-1
-                hover:border-[#E8606F]/50
-                hover:bg-[#E8606F]/10
-              "
-                  >
-                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <path d="M6.6 18.2 4 20l.7-3.1A8 8 0 1 1 8 19.3l-1.4-1.1Z" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M9.4 8.7c.2-.5.4-.6.8-.6h.5c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.5.6c.5 1 1.3 1.8 2.4 2.4l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.6v.5c0 .4-.2.6-.6.8-.7.3-1.6.3-2.6-.1-2.4-.9-4.6-3.1-5.4-5.4-.4-1-.4-1.9-.1-2.6Z" fill="currentColor" />
-                    </svg>
-                  </a>
-
-                  <a
-                    href="https://www.instagram.com/levion.dev"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Open LEVION on Instagram"
-                    title="Instagram"
-                    className="
-                group
-                flex
-                h-12
-                w-12
-                items-center
-                justify-center
-                rounded-full
-                border
-                border-white/10
-                bg-white/[0.04]
-                text-[#E8606F]
-                transition
-                hover:-translate-y-1
-                hover:border-[#E8606F]/50
-                hover:bg-[#E8606F]/10
-              "
-                  >
-                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                      <rect x="5" y="5" width="14" height="14" rx="4" stroke="currentColor" strokeWidth="1.8" />
-                      <path d="M15 11.4a3 3 0 1 1-5.8 1.4 3 3 0 0 1 5.8-1.4Z" stroke="currentColor" strokeWidth="1.8" />
-                      <path d="M16.5 8.2h.1" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" />
-                    </svg>
-                  </a>
-
-                </div>
-
-
-                {/* AVAILABILITY */}
-                <div className="mt-9">
+              {/* AVAILABILITY */}
+              <div className="mt-12">
 
                   <p
                     className="
@@ -1620,8 +1482,6 @@ export default function Home() {
                   </div>
 
                 </div>
-
-              </div>
 
             </div>
 
@@ -1863,11 +1723,13 @@ export default function Home() {
 
           {/* BOTTOM LINE */}
           <div
+            id="contact"
             className="
         mt-24
         border-t
         border-white/[0.07]
         pt-7
+        scroll-mt-24
       "
           >
 
@@ -1876,10 +1738,11 @@ export default function Home() {
           flex
           flex-col
           justify-between
-          gap-4
+          gap-8
           text-xs
           text-[#555960]
-          sm:flex-row
+          lg:flex-row
+          lg:items-start
         "
             >
 
@@ -1887,9 +1750,135 @@ export default function Home() {
                 LEVION — Software Development Company
               </span>
 
-              <span>
-                Let&apos;s create something meaningful.
-              </span>
+              <div className="lg:text-right">
+                <p
+                  className="
+                    text-[10px]
+                    uppercase
+                    tracking-[0.25em]
+                    text-[#555960]
+                  "
+                >
+                  Contact
+                </p>
+
+                <div className="mt-5 flex flex-wrap gap-4 lg:justify-end">
+                  <a
+                    href="mailto:hello.levion@gmail.com"
+                    aria-label="Email LEVION"
+                    title="Email"
+                    className="
+                      flex
+                      h-12
+                      w-12
+                      items-center
+                      justify-center
+                      rounded-full
+                      border
+                      border-white/10
+                      bg-white/[0.04]
+                      text-[#E8606F]
+                      transition
+                      hover:-translate-y-1
+                      hover:border-[#E8606F]/50
+                      hover:bg-[#E8606F]/10
+                    "
+                  >
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M4 6.5h16v11H4v-11Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+                      <path d="m5 7 7 6 7-6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Kerala"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open LEVION location on Google Maps"
+                    title="Location"
+                    className="
+                      flex
+                      h-12
+                      w-12
+                      items-center
+                      justify-center
+                      rounded-full
+                      border
+                      border-white/10
+                      bg-white/[0.04]
+                      text-[#E8606F]
+                      transition
+                      hover:-translate-y-1
+                      hover:border-[#E8606F]/50
+                      hover:bg-[#E8606F]/10
+                    "
+                  >
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M12 21s7-5.7 7-12a7 7 0 1 0-14 0c0 6.3 7 12 7 12Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+                      <path d="M12 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" stroke="currentColor" strokeWidth="1.8" />
+                    </svg>
+                  </a>
+
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Chat with LEVION on WhatsApp"
+                    title="WhatsApp"
+                    className="
+                      flex
+                      h-12
+                      w-12
+                      items-center
+                      justify-center
+                      rounded-full
+                      border
+                      border-white/10
+                      bg-white/[0.04]
+                      text-[#E8606F]
+                      transition
+                      hover:-translate-y-1
+                      hover:border-[#E8606F]/50
+                      hover:bg-[#E8606F]/10
+                    "
+                  >
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M6.6 18.2 4 20l.7-3.1A8 8 0 1 1 8 19.3l-1.4-1.1Z" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M9.4 8.7c.2-.5.4-.6.8-.6h.5c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.5.6c.5 1 1.3 1.8 2.4 2.4l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.6v.5c0 .4-.2.6-.6.8-.7.3-1.6.3-2.6-.1-2.4-.9-4.6-3.1-5.4-5.4-.4-1-.4-1.9-.1-2.6Z" fill="currentColor" />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="https://www.instagram.com/levion.dev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open LEVION on Instagram"
+                    title="Instagram"
+                    className="
+                      flex
+                      h-12
+                      w-12
+                      items-center
+                      justify-center
+                      rounded-full
+                      border
+                      border-white/10
+                      bg-white/[0.04]
+                      text-[#E8606F]
+                      transition
+                      hover:-translate-y-1
+                      hover:border-[#E8606F]/50
+                      hover:bg-[#E8606F]/10
+                    "
+                  >
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <rect x="5" y="5" width="14" height="14" rx="4" stroke="currentColor" strokeWidth="1.8" />
+                      <path d="M15 11.4a3 3 0 1 1-5.8 1.4 3 3 0 0 1 5.8-1.4Z" stroke="currentColor" strokeWidth="1.8" />
+                      <path d="M16.5 8.2h.1" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
 
             </div>
 
