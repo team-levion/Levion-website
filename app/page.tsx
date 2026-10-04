@@ -463,15 +463,13 @@ export default function Home() {
         className="
           relative
           flex
-          min-h-screen
+          min-h-[calc(100vh-76px)]
           items-center
           justify-center
           overflow-hidden
           px-5
-          pb-20
-          pt-32
-          sm:pt-36
-          md:pt-40
+          py-14
+          md:py-16
         "
       >
 
